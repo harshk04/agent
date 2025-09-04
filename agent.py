@@ -13,7 +13,9 @@ from vector_index import build_vector_db   # ⬅️ import function
 load_dotenv()
 
 # 🔑 Fetch key from env
-OPENAI_KEY = st.secrets["OPENAI_KEY"]
+OPENAI_KEY = "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"
+
+# OPENAI_KEY = st.secrets["OPENAI_KEY"]
 
 # OPENAI_KEY = os.getenv("OPENAI_KEY")
 
