@@ -1,0 +1,14 @@
+streamlit
+langchain
+langchain-community
+openai
+faiss-cpu
+pydantic
+packaging
+streamlit
+langchain
+langchain-openai
+faiss-cpu
+tiktoken
+python-dotenv
+
