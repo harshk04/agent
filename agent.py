@@ -26,10 +26,6 @@ llm = ChatOpenAI(
     temperature=0,
     openai_api_key=OPENAI_KEY
 )
-
-
-# OPENAI_KEY = "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"   # <-- replace with your key
-
 if not os.path.exists("vector_db/index.faiss"):
     print("⚠️ No vector DB found, building one...")
     build_vector_db()
